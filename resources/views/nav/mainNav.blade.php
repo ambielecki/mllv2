@@ -17,7 +17,7 @@
             <a class="brand-logo" href="/">Home</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Single Page</a></li>
+                <li><a href="/register">Register for 2016</a></li>
                 <li><a href="/live">Live Link</a></li>
                 <li><a href="/example">Show Examples</a></li>
                 <li><a href="/example/create">Add Example</a></li>

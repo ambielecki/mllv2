@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 use maldenll\News;
 use maldenll\Http\Requests\NewsRequest;
-use maldenll\Http\Requests;
 
 class AdminController extends Controller
 {
