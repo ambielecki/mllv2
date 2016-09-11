@@ -10,7 +10,7 @@ command -v sass >/dev/null 2>&1 || {
 
 # Define our paths and stylesheets
 echo "Re-compiling stylesheets..."
-cd /var/www/html/biking/public/css
+cd /var/www/html/mllv2/public/css
 
 sass main.scss main.css --style compressed
 echo "main.scss -> main.css (compressed)"
