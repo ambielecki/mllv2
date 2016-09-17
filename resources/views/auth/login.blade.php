@@ -21,7 +21,7 @@
                         <form class="col s12" action="/login" method="post">
                             {{csrf_field()}}
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="email">Email: </label>
                                     <input type="text" id="email" name="email" value="{{old('email')}}">
                                     @if ($errors->has('email'))
@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="password">Password: </label>
                                     <input type="password" id="password" name="password">
                                 </div>

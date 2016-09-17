@@ -20,7 +20,7 @@
                         <form class="col s12" action="/register" method="post">
                             {{csrf_field()}}
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="first_name">First Name: </label>
                                     <input type="text" id="first_name" name="first_name" value="{{old('first_name')}}">
                                     @if ($errors->has('first_name'))
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="last_name">Last Name: </label>
                                     <input type="text" id="last_name" name="last_name" value="{{old('last_name')}}">
                                     @if ($errors->has('last_name'))
@@ -44,7 +44,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="email">Email: </label>
                                     <input type="text" id="email" name="email" value="{{old('email')}}">
                                     @if ($errors->has('email'))
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="password">Password: </label>
                                     <input type="password" id="password" name="password">
                                 </div>
@@ -68,7 +68,7 @@
                                 @endif
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
+                                <div class="input-field col l6 m9 s12">
                                     <label for="password_confirmation">Confirm Password: </label>
                                     <input type="password" id="password_confirmation" name="password_confirmation">
                                     @if ($errors->has('password_confirmation'))
