@@ -169,6 +169,7 @@ return [
 
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -178,6 +179,7 @@ return [
         maldenll\Providers\AuthServiceProvider::class,
         maldenll\Providers\EventServiceProvider::class,
         maldenll\Providers\RouteServiceProvider::class,
+        maldenll\Http\ViewComposers\MainComposerServiceProvider::class,
 
     ],
 

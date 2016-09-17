@@ -21,8 +21,8 @@
         <div class="row">
             {{-- News Area --}}
             <div class="col s12 m3">
-                @if(isset($data['news']) && count($data['news']))
-                    @foreach($data['news'] as $item)
+                @if(count($news))
+                    @foreach($news as $item)
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">

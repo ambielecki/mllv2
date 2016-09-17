@@ -10,12 +10,10 @@ use maldenll\News;
 
 class Controller extends BaseController
 {
-    public $data = [];
 
     public function __construct()
     {
-        $news = News::getNews(5); //get news for newsfeed in all controllers
-        $this->data['news'] = $news;
+
     }
 
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
