@@ -16,9 +16,7 @@ class MainComposerServiceProvider extends  ServiceProvider
     //make $news available to all views
     public function boot()
     {
-        \View::composer('layouts.master', function($view) {
-            $view->with('news', \maldenll\News::getNews(5));
-        });
+        \View::composer('layouts.master','maldenll\Http\ViewComposers\MainComposer');
     }
 
     /**
